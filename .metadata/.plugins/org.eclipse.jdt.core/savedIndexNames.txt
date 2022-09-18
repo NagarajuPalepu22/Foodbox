@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\DELL\Desktop\Foodbox\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+159874331.index
+1024446143.index

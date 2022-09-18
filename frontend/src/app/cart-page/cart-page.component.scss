@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: .5rem;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(235, 110, 110);
+}
+ul li:last-child{
+    border: none;
+}
+ul li img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100rem;
+    object-fit: cover;
+}
+ul li div{
+    padding: 1rem;
+}
+ui li div:not(:first-child){
+    flex-basis: 18%;
+}
+ul li select{
+    width: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px soli coral;
+    font-weight: 100;
+}
+ul .remove-button{
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    opacity: .7;
+    color: rgb(78, 90, 220); 
+}
+ul .remove-button:hover{
+    background-color: rgb(237, 77, 109);
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    flex: 2 0;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.checkout>div{
+    display: flex;
+    flex: 2 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem;
+    color: brown;
+    font-size: 1.4rem;
+}
+.checkout .food-count{
+    margin-bottom: 1.5rem;
+}
+.checkout .food-count::before{
+    content: 'Total Product :';
+    color: rgb(4, 29, 32);
+}
+.checkout .total-price::before{
+    content: 'Total Price :';
+    color:  rgb(4, 29, 32);
+}
+.checkout button{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    background-color:rgb(251, 62, 62);
+    border: none;
+    padding: 8px;
+}
+.checkout button:hover{
+    background-color: green;
+}
